@@ -13,7 +13,7 @@ public class Factorial {
     }
 
     public static void main(String[] args) {
-        int fact = Factorial.factorial(5);
+        int fact = Factorial.factorial(1000);
         System.out.println(fact);
     }
 }
