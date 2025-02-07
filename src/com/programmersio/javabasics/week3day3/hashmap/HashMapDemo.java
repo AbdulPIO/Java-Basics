@@ -26,8 +26,8 @@ public class HashMapDemo {
         }
 
         System.out.println("Iterating using entrySet...");
-        Set<Map.Entry<String, Integer>> mappings = map1.entrySet();
-        for (HashMap.Entry<String, Integer> mapping : mappings){
+        Set<HashMap.Entry<String, Integer>> mappings = map1.entrySet();
+        for (Map.Entry<String, Integer> mapping : mappings){
             System.out.println("Name: " + mapping.getKey() + ", Age: " + mapping.getValue());
         }
 
